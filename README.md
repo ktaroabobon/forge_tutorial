@@ -2,7 +2,7 @@
 
 ## 始め方
 
-+事前準備
++ 事前準備
   + Dockerを下記等を参考にインストールしておいてください。
     + [Docker Desktopの概要](https://docs.docker.jp/desktop/index.html)
   + Autodesk Forgeのページにアクセスし、CLIENT_IDとCLIENT_SECRETを取得しておいてください。
