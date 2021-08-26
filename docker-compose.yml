@@ -1,0 +1,20 @@
+version: '3.8'
+services:
+  forge_tutorial:
+    container_name: forge-tutorial
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      FORGE_CLIENT_ID: ${FORGE_CLIENT_ID}
+      FORGE_CLIENT_SECRET: ${FORGE_CLIENT_SECRET}
+      FORGE_CALL_BACK_URL: ${FORGE_CALL_BACK_URL}
+    volumes:
+      - ./:/code
+      - ${NPM_CACHE_DIR:-node-modules}:/code/node_modules:cached
+    ports:
+      - "3000:3000"
+    tty: true
+
+volumes:
+  node-modules:
