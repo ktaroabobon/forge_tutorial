@@ -2,12 +2,11 @@
 
 ## 始め方
 
-<details><sammary>事前準備</summary>
-+ Dockerを下記等を参考にインストールしておいてください。
-  + [Docker Desktopの概要](https://docs.docker.jp/desktop/index.html)
-+ Autodesk Forgeのページにアクセスし、CLIENT_IDとCLIENT_SECRETを取得しておいてください。
-  + [Create your Forge account](https://learnforge.autodesk.io/#/account/)
-</details>
++事前準備
+  + Dockerを下記等を参考にインストールしておいてください。
+    + [Docker Desktopの概要](https://docs.docker.jp/desktop/index.html)
+  + Autodesk Forgeのページにアクセスし、CLIENT_IDとCLIENT_SECRETを取得しておいてください。
+    + [Create your Forge account](https://learnforge.autodesk.io/#/account/)
 
 ### 環境変数の設定
 
